@@ -1,0 +1,213 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('/hw3/fonts/Gilroy-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('/hw3/fonts/Gilroy-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('/hw3/fonts/Gilroy-SemiBold.ttf');
+  font-weight: 600;
+  /* SemiBold is typically 600 weight */
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 640px);
+  padding-right: calc(50% - 640px);
+}
+
+header {
+  padding-top: 45px;
+  padding-bottom: 89px;
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 35px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.logo_t1 {
+  margin-left: 10px;
+}
+
+.logo_t1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo_t2 {
+  color: #F25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu_box {
+  display: flex;
+  gap: 28px;
+}
+
+.menu_link p {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.2s;
+}
+
+.menu_link p:hover {
+  color: #f25822;
+}
+
+.menu_link p:active {
+  transform: scale(0.9);
+}
+
+.special_link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.current_link p {
+  color: #f25822;
+}
+
+.top_content_area {
+  padding-bottom: 162px;
+  display: flex;
+  gap: 40px;
+}
+
+.text_box {
+  width: 522px;
+}
+
+.text_box_content {
+  margin-bottom: 37px;
+}
+
+.text_box_title {
+  margin-bottom: 17px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_box_paragraph {
+  width: 466px;
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_image {
+  width: 545px;
+}
+
+.start_button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background: none;
+  transition: all 0.3s;
+}
+
+.watch_button, .start_button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background: none;
+  transition: all 0.3s;
+}
+
+.watch_button:hover, .start_button:hover {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  border: none;
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  filter: contrast(150%);
+}
+
+.text_box_buttons button:active {
+  transform: scale(0.9);
+}
+
+footer {
+  padding-top: 97px;
+  padding-bottom: 96px;
+}
+
+.foot_logos_box {
+  display: flex;
+  gap: 48px;
+}
+
+.foot_logos_box a {
+  width: 160px;
+  height: 50px;
+}
